@@ -1,4 +1,4 @@
-# ner_demo
+# NER demo
 
 Named Entity Recognition Tagger for clinical notes.
 
