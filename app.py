@@ -38,29 +38,8 @@ with text_output:
         st.markdown(html, unsafe_allow_html=True)
 
 
-    # nlp = spacy.load("en_core_web_sm")
-    # doc = nlp(user_input)
-    # visualize_ner(doc, labels=nlp.get_pipe("ner").labels, title="")
-
 about_section = st.beta_container()
 
 with about_section:
     st.header("About")
     st.text("This application utilizes ClinicalBERT trained on data from the i2b2 2011 NLP challenge.")
-
-
-
-
-
-
-# def main():
-#     st.title("Medical Document Classifier")
-#     st.subheader("Named Entity Recognition app")
-#
-#     if st.button("Run"):
-#         st.text("Original")
-#
-#
-#
-# if __name__ = '__main__':
-#     main()
