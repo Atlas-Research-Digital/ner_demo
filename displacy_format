@@ -1,7 +1,0 @@
-## displacy format:
-
-# {
-#     "text": "But Google is starting from behind.",
-#     "ents": [{"start": 4, "end": 10, "label": "ORG"}],
-#     "title": None
-# }
