@@ -1,6 +1,6 @@
 import streamlit as st
 import ktrain
-import gzip, pickle
+import pickle
 
 from displacy_utils import *
 
@@ -11,7 +11,7 @@ header = st.beta_container()
 text_input, text_output = st.beta_columns(2)
 
 def get_predictions(text):
-    ktrain.load_predictor('')
+    predictor = ktrain.load_predictor('./predictor')
     return predictor.predict(text, return_proba=True)
 
 with header:
